@@ -1,0 +1,19 @@
+{
+    "favorites": [
+      {
+        "id": 1,
+        "title": "Sample Article 1",
+        "urlToImage": "https://example.com/image.jpg",
+        "content": "Lorem ipsum...",
+        "urlToVideo": "https://example.com/video.mp4"
+      },
+      {
+        "id": 2,
+        "title": "Sample Article 2",
+        "urlToImage": "https://example.com/image2.jpg",
+        "content": "Lorem ipsum...",
+        "urlToVideo": null
+      }
+    ]
+  }
+  

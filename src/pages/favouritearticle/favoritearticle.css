@@ -1,0 +1,41 @@
+.favorites {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    gap: 20px; /* Adjust the gap between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with minimum column width */
+
+  }
+  
+  .favorites h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .article {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    /* margin-bottom: 20px; Remove margin-bottom for grid layout */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .article p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .article img {
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
